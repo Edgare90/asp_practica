@@ -8,14 +8,16 @@
     <title></title>
 </head>
 <body>
+    <ul runat="server">
     <%
         foreach (string datos in getLista())
         { %>
         
-               <li> <%= datos %></li>
+               <li > <%= datos %></li>
 
          <%
         }
         %>
+        </ul>
 </body>
 </html>
