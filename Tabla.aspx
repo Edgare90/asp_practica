@@ -19,5 +19,6 @@
         }
         %>
         </ul>
+    <p><%= getTexto() %></p>
 </body>
 </html>
